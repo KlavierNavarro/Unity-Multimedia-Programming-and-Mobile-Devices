@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2912695362732872498}
   m_Layer: 0
   m_Name: Enemigo1a
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadX: 2
   velocidadY: -1.1
+  prefabDisparoEnemigo: {fileID: 8682680106932131539, guid: 31130eef330fba94aaf637cb67ebdc1c, type: 3}
 --- !u!95 &7834968734300883104
 Animator:
   serializedVersion: 4

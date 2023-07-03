@@ -23,6 +23,7 @@ public class Nave : MonoBehaviour
         transform.Translate(horizontal * velocidad * Time.deltaTime, 0, 0);
         if (Input.GetButtonDown("Fire1"))
         {
+            GetComponent<AudioSource>().Play();
             //Instantiate(prefabDisparo, transform.position, Quaternion.identity);
             Transform disparo = Instantiate(prefabDisparo, transform.position, 
                 Quaternion.identity);
